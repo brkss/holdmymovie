@@ -1,0 +1,67 @@
+.main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.hands-img {
+    position: fixed;
+    transform: scale(0.38) translate(-606px, -444px);
+    z-index: 999;
+}
+
+.main-img {
+    width: 265px;
+}
+
+.movie-img {
+    position: absolute;
+    transform: scale(0.28) translate(-29px, -384px) skew(0deg, -1deg);
+}
+
+.search-inp {
+    border-radius: 1px;
+    margin: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 8px;
+    padding: 5px;
+    line-height: 0.5;
+}
+
+ul {
+    position: absolute;
+    z-index: 9999;
+    background: white;
+    width: 80%;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    list-style: none;
+}
+
+ul>li {
+    font-size: 13px;
+    padding: 5px;
+}
+
+ul>li:hover {
+    background: wheat;
+    cursor: pointer;
+}
+
+.elm {
+    font-size: 14px;
+    margin: 23px 6px;
+    display: inline-block;
+}
+
+.elm>a {
+    color: black;
+}
+
+img {
+    /*width: 100%;*/
+}
