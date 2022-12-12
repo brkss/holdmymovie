@@ -1,6 +1,6 @@
 let search = "";
 
-const api_key = '2c4863c518fbf640baaa7583bfab9a4e';
+const api_key = proccess.env.API_KEY;
 let end_point = `https://api.themoviedb.org/3/search/movie?query=${search}&api_key=${api_key}`;
 const img_url = 'https://image.tmdb.org/t/p/w500/';
 
